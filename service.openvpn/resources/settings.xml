@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<settings>
+    <category label="32000">
+		<setting label="32000" type="lsep"/>
+		<setting type="sep"/>
+                <setting label="32001" type="text" id="api_key" default=""/>
+                <setting label="32002" type="fileenum" id="config" values="resources" mask="*.ovpn"/>
+                <setting label="32003" type="text" id="ports" default=""/>
+    </category>
+</settings>
